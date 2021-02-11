@@ -1,0 +1,59 @@
+#calculatrice {
+
+    background-color: black;
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    
+}
+
+.ecran {
+
+    background-color: rgba(210, 220, 209, 0.5);
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p {
+
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.boutton-list {
+
+    width: 90%;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    height: 500px;
+
+}
+
+.button {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 2em;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+.remiseAZeroEgal {
+
+    background-color: rgb(136, 188, 72);
+
+}
+
+.operation {
+
+    background-color: rgb(224, 100, 18);
+    
+}
