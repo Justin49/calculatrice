@@ -1,49 +1,50 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #calculatrice {
 
     background-color: black;
-    width: 35%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 
 .ecran {
 
-    background-color: rgba(210, 220, 209, 0.5);
-    width: 90%;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-p {
-
-    font-size: 2.5em;
-    font-weight: 100;
-}
-
-.boutton-list {
-
-    width: 90%;
-    margin-left: auto;
-    margin-top: 30px;
-    margin-right: auto;
-    height: 500px;
-
-}
-
-.button {
-
-    border-radius: 50%;
-    width: 100px;
+    background-color: rgba(198, 237, 255, 0.5);
+    width: 100%;
     height: 100px;
-    color: black;
-    font-size: 2em;
-    margin: 10px 10px 0px 10px;
-    
+    margin-bottom: 10px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.touches {
+
+   display: grid;
+   grid-template-columns: repeat(4, 50px);
+   grid-template-rows: repeat(4, 50px);
+   grid-gap: 7px;
+
 }
 
 .remiseAZeroEgal {
