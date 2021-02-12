@@ -14,15 +14,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 /* Styles de la calculatrice */
 #calculatrice {
 
-    background-color: black;
+    background-color: #222222;
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px black;
     
 }
 
@@ -55,13 +59,33 @@ body {
 /* Style pour les touches remise à zéro et égal */
 .remiseAZeroEgal {
 
-    background-color: rgb(136, 188, 72);
+    background-color: rgb(136, 188, 72) !important;
+    color: #f7f7f7;
 
 }
 
 /* Style pour les touches d'opérations */
 .operation {
 
-    background-color: rgb(224, 100, 18);
+    background-color: rgb(224, 100, 18) !important;
     
 }
+
+/* Style des boutons */
+.button {
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 3px #a8a8a8;
+    font-size: 18px;
+}
+
+/* Style quand on appuis sur les boutons */
+.button:active {
+
+    box-shadow: 0 1px #a8a8a8;
+    transform: translateY(2px);
+}
+
