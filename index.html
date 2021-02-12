@@ -14,23 +14,25 @@
                 
             </div>
             <!--Touches-->
+            <!--On associe un keycode pour afficher le caractère corresponant en pressant la touche sur le clavier, doc pour chaque keycode -> https://keycode.info/-->
+            <!--Les attributs data- sont des attributs qui n'existent pas vraiment et peuvent être inventer, on peut lui donner le nom et lui affecter la valeur que l'on souhaite, sa sert à attacher une valeur à un élément du code HTML, en JavaScript on peut y accèder (récupérer la valeur) avec element.dataset.nomDuDataset -> nomDeLaVariable.dataset.key -> on récupérera 8 sous forme de chaîne de caractère-->
             <div class="touches">
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button operation">+</button>
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button operation">-</button>
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button operation">*</button>
-                <button class="button remiseAZeroEgal">C</button>
-                <button class="button">0</button>
-                <button class="button remiseAZeroEgal">=</button>
-                <button class="button operation">/</button>
+                <button data-key="103" class="button">7</button>
+                <button data-key="104" class="button">8</button>
+                <button data-key="105" class="button">9</button>
+                <button data-key="107" class="button operation">+</button>
+                <button data-key="100" class="button">4</button>
+                <button data-key="101" class="button">5</button>
+                <button data-key="102" class="button">6</button>
+                <button data-key="109" class="button operation">-</button>
+                <button data-key="97" class="button">1</button>
+                <button data-key="98" class="button">2</button>
+                <button data-key="99" class="button">3</button>
+                <button data-key="106" class="button operation">*</button>
+                <button data-key="8" class="button remiseAZeroEgal">C</button>
+                <button data-key="96" class="button">0</button>
+                <button data-key="13" class="button remiseAZeroEgal">=</button>
+                <button data-key="111" class="button operation">/</button>
             </div>
         </div>
 
