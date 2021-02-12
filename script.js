@@ -56,4 +56,9 @@ const calculer = (valeur) => {
 
 }
 
+window.addEventListener('error', (e) => {
+
+    alert('Une erreur est survenue dans votre calcul' + e.message + ' veuillez appuyer sur la touche OK puis sur C pour effacer ce qui est à l\'écran');
+});
+
 
